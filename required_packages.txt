@@ -1,2 +1,6 @@
 sphinx
 sphinx-rtd-theme
+PyStemmer
+GitPython
+rinohtype
+pygments
