@@ -86,7 +86,9 @@ for current_version in ${versions}; do
       fi
   
       # copy the static assets produced by the above build into our docroot
-      rsync -av "docs/_build/html/" "${docroot}/"
+ 
+rsync -av "docs/_build/html/${current_language}/${current_version}/" \
+      "${docroot}/${current_language}/${current_version}/"
   
    done
   
