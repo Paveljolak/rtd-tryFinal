@@ -22,8 +22,6 @@ jobs:
       run: |
         apt-get update
         apt-get install -y git
-        python -m pip install --upgrade pip
-        pip install -r required_packages.txt
         git clone "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
       shell: bash
  
