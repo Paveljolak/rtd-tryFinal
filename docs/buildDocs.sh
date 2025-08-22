@@ -13,7 +13,7 @@ set -x
 
 apt-get update
 apt-get -y install git rsync python3-pip
-pip install -r required_packages.txt
+pip install -r ../required_packages.txt
 
 #####################
 # DECLARE VARIABLES #
