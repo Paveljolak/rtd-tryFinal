@@ -3,6 +3,10 @@ name: docs_pages_workflow
 # execute this workflow automatically when a we push to master
 on:
   push:
+
+
+permissions:
+ contents: write # read/write access to repository contents
  
 jobs:
  
